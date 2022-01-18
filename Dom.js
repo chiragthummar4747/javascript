@@ -132,3 +132,4 @@
 //arrow function with parameters
 // var hello = (val1, val2) => "Hello  " + (val1 + val2);
 // console.log(hello(12, 23))
+// console.log()
