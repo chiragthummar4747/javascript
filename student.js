@@ -42,7 +42,7 @@ if(student.A() == true)
     console.log("total=" + student.total)
     console.log("per=" + student.pers)
     //  student.pers>=75?console.log("gread=A"):console.log("gread=B")
-    // student.pers>=65?console.log("gread=B"):console.log("gread=C")
+    student.pers>=65?console.log("gread=B"):console.log("gread=C")
     if(student.pers>=75)
     {
         console.log("gread=A")
@@ -63,4 +63,4 @@ if(student.A() == true)
 else{
     console.log("fail")
 }
-console.log(student.Rollno)
+// console.log(student.Rollno)
