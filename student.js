@@ -63,3 +63,4 @@ if(student.A() == true)
 else{
     console.log("fail")
 }
+console.log(student.Rollno)
