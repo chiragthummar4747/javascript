@@ -8,6 +8,10 @@ var student2 = {
   studentName: "John",
   section: "B"
 };
+var student3 = {
+    studentName: "voct",
+    section: "C"
+};
 
 //function at outside the object
 function calculateTotalMarks(subject1, subject2, subject3)
@@ -17,5 +21,13 @@ function calculateTotalMarks(subject1, subject2, subject3)
   console.log(message);
 }
 
-calculateTotalMarks.apply(student1, [ 60, 70, 80 ] ); //supply "student" object as "this" keyword of calculateTotalMarks function; and also supply the values of array into respective parameters, sequentially.
+
+// call sentex //
+calculateTotalMarks.call(student1, 60, 70, 80  ); //supply "student" object as "this" keyword of calculateTotalMarks function; and also supply the values of array into respective parameters, sequentially.
+
+//apply sentex//
 calculateTotalMarks.apply(student2, [ 56, 45, 88 ] );
+
+//bind sentex//
+calculateTotalMarks.bind(student3)
+calculateTotalMarks(50,70,80)

@@ -17,6 +17,7 @@ var student1 = {
   }
   
   var student1Calculate = calculateTotalMarks.bind(student1); //it creates a new function and stores reference of student1 as "this" keyword. The function will not be executed.
+  console.log(typeof(calculateTotalMarks))
   student1Calculate(60, 70, 80); //executes the function; this = student1
   
   var student2Calculate = calculateTotalMarks.bind(student2); //it creates a new function and stores reference of student2 as "this" keyword. The function will not be executed.
