@@ -1,11 +1,11 @@
-// arr=[]
-// const a1 = [1,2,3,4,5];
+arr=[]
+const a1 = [1,2,3,4,5];
 
-// for (const element of a1) {
-//   arr.push(element*2);
+for (const element of a1) {
+  arr.push(element*2);
     
-// }
-// console.log(arr)
+}
+console.log(arr)
 
 // arr1=[]
 // a1.forEach((a)=>{
