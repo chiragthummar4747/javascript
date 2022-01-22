@@ -2,9 +2,9 @@ var student ={
     firstName:'chirag',
     lastName: "thummar",
     Rollno:10,
-    english: 83,
-    gujrati: 86,
-    science: 85,
+    english: 43,
+    gujrati: 56,
+    science: 65,
     total: 0,
     pers: 0,
    
@@ -42,7 +42,7 @@ if(student.A() == true)
     console.log("total=" + student.total)
     console.log("per=" + student.pers)
     //  student.pers>=75?console.log("gread=A"):console.log("gread=B")
-    student.pers>=65?console.log("gread=B"):console.log("gread=C")
+    // student.pers>=65?console.log("gread=B"):console.log("gread=C")
     if(student.pers>=75)
     {
         console.log("gread=A")
