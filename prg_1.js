@@ -4,7 +4,7 @@
 
 
 //  arrow function 
-//const reveser = (num) => String(num).split("").reverse().join("")
+// const reveser = (num) => String(num).split("").reverse().join("")
 //  console.log(reveser(12345));
 
 
@@ -25,7 +25,7 @@
 
 // callback function 
 function call (get){
-    console.log("get",get)
+    //  console.log("get",get)
     console.log(get(34223))
 }
 call(function(num){

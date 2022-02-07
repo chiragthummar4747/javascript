@@ -23,8 +23,8 @@
 
 //callback function 
 function call(get){
-    console.log("get",get)
-    console.log(get("zca"))
+   
+    console.log(get('webmaster'))
 }
 call(function(str){
             var a,b,c,d;
